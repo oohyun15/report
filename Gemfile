@@ -12,7 +12,6 @@ gem "redis", "~> 4.0"
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "bootsnap", require: false
 gem "pg"
-gem "rubocop-shopify", require: false
 
 group :development, :test do
   gem "pry"
