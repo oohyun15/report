@@ -16,6 +16,7 @@ RSpec.describe User, type: :model do
 
       it "returns true" do
         expect(@user).to be_a(User)
+        expect(@user.auth_token.size).to eq(User::AUTH_TOKEN_LENGTH)
       end
     end
   end
